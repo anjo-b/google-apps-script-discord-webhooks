@@ -1,5 +1,5 @@
 function sendHelloWorldToDiscord() {
-  var discordWebhookUrl = "link";
+  var discordWebhookUrl = "[api_link]";
   var message = "Hello, World! This is a message from Google Apps Script.";
 
   var payload = {
