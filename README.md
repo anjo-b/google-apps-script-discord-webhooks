@@ -5,22 +5,23 @@ A collection of Google Apps Script utilities for sending notifications, alerts, 
 ## 📁 Project Structure
 
 ```
-.
-├── Alert/                          # Discord embed notifications
-│   ├── README.md                   
-│   └── TaskAlertSystem.gs          # Sends formatted embed messages
+├── Alert/                              # Discord embed notifications
+│   ├── README.md
+│   └── TaskAlertSystem.gs              # Sends formatted embed messages
 │
-├── Google-Form-Responses/          # Form submission handlers
+├── Google-Form-Responses/              # Form submission handlers
+│   ├── README.md
 │   ├── Responses/                   
-│   │   ├── get_responses.gs        # Sends all form responses
-│   │   └── README.md               
+│   │   ├── get_responses.gs            # Sends all form responses
+│   │   └── README.md
+│   │
 │   └── Specific-Responses/         
-│       ├── get_specific_responses.gs # Sends selected form fields only
-│       └── README.md                
+│       ├── get_specific_responses.gs   # Sends selected form fields only
+│       └── README.md
 │
-└── Send-Notifications/             # Simple message notifications
-    ├── HelloWorld.gs               # Basic text messages with validation
-    └── README.md                   
+└── Send-Notifications/                 # Simple message notifications
+    ├── HelloWorld.gs                   # Basic text messages with validation
+    └── README.md
 ```
 
 ## 🚀 Overview
